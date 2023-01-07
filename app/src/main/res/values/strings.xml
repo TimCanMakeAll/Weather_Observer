@@ -2,4 +2,10 @@
     <string name="app_name">Weather Observer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_customize_your_app">Start customize your app )</string>
+    <string name="setup_your_location_and_application_theme">Setup your location and application theme:</string>
+    <string name="location_entering">Location entering:</string>
+    <string name="enter_or_choose_your_location">Enter or choose your location:</string>
+    <string name="choose_theme_of_your_app">Choose theme of your app:</string>
+    <string name="start_setup_application">Start setup application</string>
 </resources>

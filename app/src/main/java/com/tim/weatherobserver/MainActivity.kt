@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var homeFragment = HomeFragment()
         val settingsFragment = SettingsFragment()
+        val homeFragment = HomeFragment()
         val detailsFragment = DetailsFragment()
 
         makeCurrentFragment(settingsFragment)
@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
         bottomNavigation.setOnItemSelectedListener{
             when(it.itemId){
 
-                R.id.ic_home -> makeCurrentFragment(homeFragment)
                 R.id.ic_settings -> makeCurrentFragment(settingsFragment)
+                R.id.ic_home -> makeCurrentFragment(homeFragment)
                 R.id.ic_detail -> makeCurrentFragment(detailsFragment)
             }
             true
@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction().apply {
 
             replace(R.id.fl_wrapper, fragment)
-
             commit()
         }
     }

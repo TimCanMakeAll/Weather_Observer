@@ -5,8 +5,14 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="teal_800">#00695C</color>
+    <color name="teal_800">#004D40</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="experimentalColor">#00695C</color>
+    <color name="transparent">#00000000</color>
+    <color name="green_middle">#00897B</color>
+    <color name="green_middle_light">#C300BFA5</color>
+    <color name="day_mode_background_color_settings">#A5D6A7</color>
+    <color name="day_mode_bg_color_home">#B2EBF2</color>
+    <color name="night_mode_bg_color_home">#4A148C</color>
+    <color name="pink">#E040FB</color>
 </resources>
