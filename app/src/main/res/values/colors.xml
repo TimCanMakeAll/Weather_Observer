@@ -11,8 +11,13 @@
     <color name="transparent">#00000000</color>
     <color name="green_middle">#00897B</color>
     <color name="green_middle_light">#C300BFA5</color>
+    <color name="blue_dark">#00364C</color>
+    <color name="blue_middle">#00404D</color>
+    <color name="blue_middle_light">#03A9F4</color>
+    <color name="red_dark">#641E1E</color>
     <color name="day_mode_background_color_settings">#A5D6A7</color>
     <color name="day_mode_bg_color_home">#B2EBF2</color>
+    <color name="day_mode_bg_color_details">#FFCCBC</color>
     <color name="night_mode_bg_color_home">#4A148C</color>
     <color name="pink">#E040FB</color>
 </resources>
